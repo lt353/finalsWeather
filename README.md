@@ -4,8 +4,6 @@ Code displays a simple HTML page to obtain the zip code from the user and then u
 Note: Requires API Token Key by registration with site below. Free for basic usage
 https://openweathermap.org/api
 
-# prepWeatherZip
+# finalsWeather
 
-Lindsay, Poipu, Fall weather
-
-Somewhere like Melbourne where it is fall now.
+This gives the option of either entering a City ID or the coordinates to display the weather forecast. 
