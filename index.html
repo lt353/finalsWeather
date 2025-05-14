@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<h1>Weather API Results</h1>
+
+		<form action="/" method="post">
+			<select id="searchType" name="searchType">
+				<option value="cityId">City ID</option>
+				<option value="coordinates">Latitude/Longitude</option>
+			</select>
+			
+			<div id="cityIdInput">
+				<label for="cityId">City ID:</label>
+				<input id="cityId" type="text" name="cityId" placeholder="e.g., 2172797 for Cairns" />
+			</div>
+			
+			<div id="coordinatesInput">
+				<label for="lat">Latitude:</label>
+				<input id="lat" type="text" name="lat" placeholder="e.g., 21.8733" />
+				<label for="lon">Longitude:</label>
+				<input id="lon" type="text" name="lon" placeholder="e.g., -159.4542" />
+			</div>
+			
+			<button type="submit">Get Weather</button>
+		</form>
+	</body>
+</html>
